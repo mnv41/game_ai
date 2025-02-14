@@ -1,5 +1,14 @@
-requests==2.28.1
-numpy==1.23.5
-pandas>=1.5.0,<2.0.0  # Example of version range
-flake8>=7
+ultralytics
+mss
+opencv-python
+numpy
+pygetwindow
+pyautogui
+flake8
 yapf
+pillow
+PyOpenGL 
+PyOpenGL_accelerate
+imgui[glfw]
+pywin32
+
