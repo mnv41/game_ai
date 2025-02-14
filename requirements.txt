@@ -1,0 +1,17 @@
+torch
+torchvision
+torchaudio
+ultralytics
+mss
+opencv-python
+numpy
+pygetwindow
+pyautogui
+flake8
+yapf
+pillow
+PyOpenGL 
+PyOpenGL_accelerate
+imgui[glfw]
+pywin32
+
