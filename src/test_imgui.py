@@ -3,7 +3,6 @@ from OpenGL.GL import *
 import imgui
 from imgui.integrations.glfw import GlfwRenderer
 
-
 def main():
     # Initialise GLFW
     if not glfw.init():
@@ -43,12 +42,12 @@ def main():
         # Dessine un rectangle rouge
         draw_list = imgui.get_window_draw_list()
         draw_list.add_rect(
-            p_min=(50, 50),
-            p_max=(200, 150),
-            col=imgui.get_color_u32_rgba(1, 0, 0, 1),  # Rouge
-            rounding=0.0,
-            flags=0,
-            thickness=2)
+            50,
+            200,
+            imgui.get_color_u32_rgba(1, 0, 0, 1),  # Rouge
+            0.0,
+            0,
+            2)
 
         imgui.end()
 
